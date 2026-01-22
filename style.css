@@ -192,3 +192,24 @@ hr {
 
 
 
+.footer-section {
+    background-color: #8402ee;
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-endnote{
+    background-color: #dd2b93;
+    text-align: center;
+    margin-top: 170px;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+
+
+}
