@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Merchanding Pro</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./sign-up.css">
   <!-- Google Font -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
   <header class="header">
     <nav class="nav">
       <div class="logo-container">
-      <img class="logo" src="./all-image/logo.jpg" alt="">
+      <img class="logo" src="../all-image/logo.jpg" alt="">
     <h2>Merchandising <br>Pro</h2>
     </div>
     <ul class="nav-links">
@@ -27,7 +27,7 @@
         <a href="#">Course Details</a>
         <a href="#">About Us</a>
         <a href="#">Success</a>
-        <a href="#">Login</a>
+        <a href="../index.html">Login</a>
       </li>
     </ul>
     <!-- For small screen only -->
@@ -40,27 +40,32 @@
 
       <form class="login-form">
         <div class="login-text">
-        <p>Welcome Back</p>
-        <h3>Sign In your account</h3>
-        <h5>Please enter your details to sign in.</h5>
+        <h3>Sign Up your account</h3>
+        <h5>Please enter your details to sign up.</h5>
         </div>
         <div class="login-inputs">
+        <label for="email">Name</label><br>
+        <input class="name" type="name" id="animated-input" placeholder="Enter your name here" required autocomplete="off"><br>
         <label for="email">Email Address</label><br>
         <input class="email" type="email" id="animated-input" placeholder="Enter your Email here" required autocomplete="off"><br>
+        <label for="phone-no">Phone No.</label><br>
+        <input class="phone-no" type="phone-no" id="animated-input" placeholder="Enter your Phone no." required autocomplete="off"><br>
         <label for="password">Password</label><br>
         <input class="password"type="password" placeholder="Password" required><br>
-        <div class="remember-me">
-        <input type="checkbox" id="remember-me" name="remember-me">
-        <label for="remember-me"> Remember me</label>
+          <label for="confirm-password">Confirm Password</label><br>
+        <input class="confirm-password" type="password" id="animated-input" placeholder="Confirm Password" required autocomplete="off"><br>
+        <div class="i-agree">
+        <input type="checkbox" id="i-agree" name="i-agree">
+        <label for="i-agree"> I agree to the</label> <a class="termsAndCondition" href="http://www.pronob.store" target="_blank">terms and conditions</a>
         </div><br><br>
 
-        <input class="sign-in" type="button" value="Sign In" required><br><br>
-
-        <div class="sign-up">
-          <p class="sign-up-text">Don’t have an account? </p>
-          <a class="sign-up-link" href="./Sign-up/sign-up.html"><h4>Sign Up</h4></a>
-        </div>
+        <input class="sign-up-button" type="button" value="Sign up" required><br><br>
         
+                <div class="sign-in">
+          <p class="sign-in-text">Already have an account?  </p>
+          <a class="sign-in-link" href="../index.html"><h4>Sign In</h4></a>
+        </div>
+
         </div>
 
       </form>
